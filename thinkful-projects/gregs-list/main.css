@@ -57,7 +57,7 @@ label {
     padding-left: 5px;
 }
 
-.search, .submit {
+.search, .submit, td {
     border-style: solid;
     border-color: #E3E3E3;
     border-width: 2px;
@@ -81,3 +81,38 @@ label {
     top: 15px;
     padding: 1px;
 }
+
+table {
+    top: 140px;
+    left: 120px;
+    /* border-collapse: collapse; */
+    height: 40px;
+    border-spacing: 0;
+}
+
+td {
+    padding-left: 15px;
+    padding-right: 15px;
+    left: 0;
+    border-radius: 0;
+    border-width: 1.5px;
+}
+
+.td-left {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-right: 0;
+}
+
+.td-right {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-left: 0;
+}
+
+.td-middle {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+
