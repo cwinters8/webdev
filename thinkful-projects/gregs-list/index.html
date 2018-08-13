@@ -4,7 +4,7 @@
         <title>Greg's List</title>
         <meta charset="utf-8" name="description" content="Ushering in a new age for online classifieds.">
         <link rel="stylesheet" href="main.css" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900" rel="stylesheet">
     </head>
     <body>
         <nav role="navigation">
@@ -15,18 +15,39 @@
             </ul>
         </nav>
     <main role="main">
-        <form>
-            <label for="search">Search Jobs</label>
-            <br>
-            <input class="search" type="text" id="search" name="job-search" placeholder="Search software jobs">
-            <input class="submit" type="image" src="https://tf-assets-prod.s3.amazonaws.com/tf-curric/WEB-DEV-001/2.4.6_challenge_design_to_code/magnifying-glass.png">
-        </form>
-        <table>
-            <tr>
-                <td class="td-left">< prev</td>
-                <td class="td-middle">1 to 100 of 179</td>
-                <td class="td-right">next ></td>
-            </tr>
-        </table>
+        <section class="search-section">
+            <form>
+                <label class="search-label" for="search">Search Jobs</label>
+                <br>
+                <input class="search" type="text" id="search" name="job-search" placeholder="Search software jobs">
+                <input class="submit" type="image" src="https://tf-assets-prod.s3.amazonaws.com/tf-curric/WEB-DEV-001/2.4.6_challenge_design_to_code/magnifying-glass.png">
+            </form>
+        </section>
+        <section class="nav-section">
+            <div class="navcontainer">
+                <a class="prev" href="">< prev</a>
+                <p class="count">1 to 100 of 179</p>
+                <a class="next" href="">next ></a>
+            </div>
+        </section>
+        <section class="results-section">
+            <div class="results">
+                <div class="row">
+                    <p class="date">June 22</p>
+                    <a class="job" href="">Technical Project Manager</a>
+                    <p class="location">Midtown East</p>
+                </div>
+                <div class="row">
+                    <p class="date">June 21</p>
+                    <a class="job" href="">Frontend Developer</a>
+                    <p class="location">SoHo</p>
+                </div>
+                <div class="row">
+                    <p class="date">June 20</p>
+                    <a class="job" href="">Senior Python Developer / Cofounder</a>
+                    <p class="location">Flatiron</p>
+                </div>
+            </div>
+        </section>
     </main>
     </body>
