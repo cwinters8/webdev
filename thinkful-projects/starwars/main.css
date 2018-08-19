@@ -1,0 +1,39 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    color: #252525;
+}
+
+header {
+    background-color: #eebb44;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    margin-bottom: 0;
+    line-height: 1;
+}
+
+header p {
+    margin-top: 8px;
+}
+
+.card {
+    border: 1px solid #E5E5E5;
+    margin-bottom: 20px;
+}
+
+.card-image {
+    width: 100%;
+}
+
+.card-content {
+    margin: 20px;
+}
+
+.card-content h3 {
+    margin: 0;
+}
+
+.card-content p {
+    margin: 0.5em 0;
+}
